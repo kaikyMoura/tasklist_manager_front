@@ -75,12 +75,25 @@
     color: #0000008F;
 }
 
+.modal input:hover {
+    border: 1px solid #000;
+}
+
+.modal select {
+    width: 24.13em;
+    height: 3.19em;
+    padding: 16px;
+    padding: 4px;
+    border-radius: 8px;
+    border: 1px solid #D7DDE9;
+    color: #0000008F;
+}
+
 .modal h3 {
     color: #0000008A;
 }
 
 .addButton {
-    background: linear-gradient(90deg, #0796D3 0%, #53C0F0 68.65%);
     color: #ffff;
     width: 11.56em;
     height: 3.19em;
@@ -88,8 +101,7 @@
 }
 
 .deleteButton {
-    background: linear-gradient(90deg, #D30707 0%, #F05353 68.65%);
-
+    background: red;
     color: #ffff;
     width: 11.56em;
     height: 3.19em;
